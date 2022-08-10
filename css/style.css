@@ -1,0 +1,47 @@
+body {
+  font-family: monospace;
+}
+
+div {
+  width: 720px;
+  height: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+div input {
+  width: 250px;
+  align-self: center;
+  border: 3px solid pink;
+}
+div ul {
+  align-self: center;
+  padding: 0;
+  width: 200px;
+  list-style: none;
+  font-weight: 800;
+  font-size: 1.3em;
+}
+div ul li {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+div ul li button {
+  width: 10px;
+  height: 20px;
+  margin-left: auto;
+}
+div ul li input {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.checked {
+  text-decoration: line-through;
+  opacity: 30%;
+}
+
+/*# sourceMappingURL=style.css.map */
